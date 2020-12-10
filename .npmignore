@@ -1,0 +1,9 @@
+/.idea/
+/node_modules/
+/.gitignore
+/.npmignore
+/npm-debug.log
+/build/
+/._*
+/experiments/
+/package-lock.json/

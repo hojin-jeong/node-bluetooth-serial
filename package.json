@@ -1,0 +1,49 @@
+{
+  "name": "bluetooth-serial-port",
+  "version": "2.2.8",
+  "description": "Bluetooth serial port communication for Node.js",
+  "author": "hojin.jeong <a66764765@gmail.com>",
+  "keywords": [
+    "bluetooth",
+    "serial port",
+    "rfcomm",
+    "linux",
+    "os x",
+    "windows"
+  ],
+  "homepage": "https://github.com/hojin-jeong/node-bluetooth-serial",
+  "bugs": "https://github.com/hojin-jeong/node-bluetooth-serial/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hojin-jeong/node-bluetooth-serial"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "lib/bluetooth-serial.js",
+  "types": "./lib/bluetooth-serial.d.ts",
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "latest"
+  },
+  "optionalDependencies": {
+    "@types/node": "^7.0.10"
+  },
+  "engines": {
+    "node": ">= 6.x",
+    "npm": ">= 1.1.x"
+  },
+  "scripts": {
+    "install": "node-gyp configure build",
+    "install-debug": "node-gyp configure build --debug"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Hojin Jeong"
+  ]
+}
