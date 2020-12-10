@@ -4,6 +4,7 @@ const client = new BT.BluetoothSerial()
 const clientTestFunctions = [
     'inquire', 'findSerialPortChannel', 'connect', 'write', 'on', 'close'
 ]
+
 console.log('Checking client...')
 clientTestFunctions
     .forEach(fun => {
